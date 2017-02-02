@@ -1,0 +1,36 @@
+{
+  "name": "highlight.js-polyfill",
+  "version": "0.1.0",
+  "description": "A polyfill for highlight.js to isolate various syntax theme because of global style pollution. This package doesn't require modifying the source file.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "webpack --config ./src/webpack.config.js --progress --colors --profile"
+  },
+  "keywords": [
+    "polyfill",
+    "highlight"
+  ],
+  "author": {
+    "name": "ChouUn",
+    "email": "ChouUnSoft@gmail.com"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "highlight.js": "^9.9.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ChouUn/highlight.js-polyfill/issues"
+  },
+  "homepage": "https://github.com/ChouUn/highlight.js-polyfill",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ChouUn/highlight.js-polyfill.git"
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.2",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^4.1.1",
+    "webpack": "^2.2.1"
+  }
+}

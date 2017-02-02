@@ -1,0 +1,370 @@
+@mixin common {
+  .hljs {
+    background: inherit;
+  }
+}
+
+.agate {
+  @import "~highlight.js/styles/agate";
+  @include common;
+}
+
+.androidstudio {
+  @import "~highlight.js/styles/androidstudio";
+  @include common;
+}
+
+.arduino-light {
+  @import "~highlight.js/styles/arduino-light";
+  @include common;
+}
+
+.arta {
+  @import "~highlight.js/styles/arta";
+  @include common;
+}
+
+.ascetic {
+  @import "~highlight.js/styles/ascetic";
+  @include common;
+}
+
+.atelier-cave-dark {
+  @import "~highlight.js/styles/atelier-cave-dark";
+  @include common;
+}
+
+.atelier-cave-light {
+  @import "~highlight.js/styles/atelier-cave-light";
+  @include common;
+}
+
+.atelier-dune-dark {
+  @import "~highlight.js/styles/atelier-dune-dark";
+  @include common;
+}
+
+.atelier-dune-light {
+  @import "~highlight.js/styles/atelier-dune-light";
+  @include common;
+}
+
+.atelier-estuary-dark {
+  @import "~highlight.js/styles/atelier-estuary-dark";
+  @include common;
+}
+
+.atelier-estuary-light {
+  @import "~highlight.js/styles/atelier-estuary-light";
+  @include common;
+}
+
+.atelier-forest-dark {
+  @import "~highlight.js/styles/atelier-forest-dark";
+  @include common;
+}
+
+.atelier-forest-light {
+  @import "~highlight.js/styles/atelier-forest-light";
+  @include common;
+}
+
+.atelier-heath-dark {
+  @import "~highlight.js/styles/atelier-heath-dark";
+  @include common;
+}
+
+.atelier-heath-light {
+  @import "~highlight.js/styles/atelier-heath-light";
+  @include common;
+}
+
+.atelier-lakeside-dark {
+  @import "~highlight.js/styles/atelier-lakeside-dark";
+  @include common;
+}
+
+.atelier-lakeside-light {
+  @import "~highlight.js/styles/atelier-lakeside-light";
+  @include common;
+}
+
+.atelier-plateau-dark {
+  @import "~highlight.js/styles/atelier-plateau-dark";
+  @include common;
+}
+
+.atelier-plateau-light {
+  @import "~highlight.js/styles/atelier-plateau-light";
+  @include common;
+}
+
+.atelier-savanna-dark {
+  @import "~highlight.js/styles/atelier-savanna-dark";
+  @include common;
+}
+
+.atelier-savanna-light {
+  @import "~highlight.js/styles/atelier-savanna-light";
+  @include common;
+}
+
+.atelier-seaside-dark {
+  @import "~highlight.js/styles/atelier-seaside-dark";
+  @include common;
+}
+
+.atelier-seaside-light {
+  @import "~highlight.js/styles/atelier-seaside-light";
+  @include common;
+}
+
+.atelier-sulphurpool-dark {
+  @import "~highlight.js/styles/atelier-sulphurpool-dark";
+  @include common;
+}
+
+.atelier-sulphurpool-light {
+  @import "~highlight.js/styles/atelier-sulphurpool-light";
+  @include common;
+}
+
+.atom-one-dark {
+  @import "~highlight.js/styles/atom-one-dark";
+  @include common;
+}
+
+.atom-one-light {
+  @import "~highlight.js/styles/atom-one-light";
+  @include common;
+}
+
+.codepen-embed {
+  @import "~highlight.js/styles/codepen-embed";
+  @include common;
+}
+
+.color-brewer {
+  @import "~highlight.js/styles/color-brewer";
+  @include common;
+}
+
+.darcula {
+  @import "~highlight.js/styles/darcula";
+  @include common;
+}
+
+.dark {
+  @import "~highlight.js/styles/dark";
+  @include common;
+}
+
+.default {
+  @import "~highlight.js/styles/default";
+  @include common;
+}
+
+.docco {
+  @import "~highlight.js/styles/docco";
+  @include common;
+}
+
+.dracula {
+  @import "~highlight.js/styles/dracula";
+  @include common;
+}
+
+.far {
+  @import "~highlight.js/styles/far";
+  @include common;
+}
+
+.foundation {
+  @import "~highlight.js/styles/foundation";
+  @include common;
+}
+
+.github {
+  @import "~highlight.js/styles/github";
+  @include common;
+}
+
+.github-gist {
+  @import "~highlight.js/styles/github-gist";
+  @include common;
+}
+
+.googlecode {
+  @import "~highlight.js/styles/googlecode";
+  @include common;
+}
+
+.grayscale {
+  @import "~highlight.js/styles/grayscale";
+  @include common;
+}
+
+.gruvbox-dark {
+  @import "~highlight.js/styles/gruvbox-dark";
+  @include common;
+}
+
+.gruvbox-light {
+  @import "~highlight.js/styles/gruvbox-light";
+  @include common;
+}
+
+.hopscotch {
+  @import "~highlight.js/styles/hopscotch";
+  @include common;
+}
+
+.hybrid {
+  @import "~highlight.js/styles/hybrid";
+  @include common;
+}
+
+.idea {
+  @import "~highlight.js/styles/idea";
+  @include common;
+}
+
+.ir-black {
+  @import "~highlight.js/styles/ir-black";
+  @include common;
+}
+
+.kimbie.dark {
+  @import "~highlight.js/styles/kimbie.dark";
+  @include common;
+}
+
+.kimbie.light {
+  @import "~highlight.js/styles/kimbie.light";
+  @include common;
+}
+
+.magula {
+  @import "~highlight.js/styles/magula";
+  @include common;
+}
+
+.mono-blue {
+  @import "~highlight.js/styles/mono-blue";
+  @include common;
+}
+
+.monokai {
+  @import "~highlight.js/styles/monokai";
+  @include common;
+}
+
+.monokai-sublime {
+  @import "~highlight.js/styles/monokai-sublime";
+  @include common;
+}
+
+.obsidian {
+  @import "~highlight.js/styles/obsidian";
+  @include common;
+}
+
+.ocean {
+  @import "~highlight.js/styles/ocean";
+  @include common;
+}
+
+.paraiso-dark {
+  @import "~highlight.js/styles/paraiso-dark";
+  @include common;
+}
+
+.paraiso-light {
+  @import "~highlight.js/styles/paraiso-light";
+  @include common;
+}
+
+.purebasic {
+  @import "~highlight.js/styles/purebasic";
+  @include common;
+}
+
+.qtcreator_dark {
+  @import "~highlight.js/styles/qtcreator_dark";
+  @include common;
+}
+
+.qtcreator_light {
+  @import "~highlight.js/styles/qtcreator_light";
+  @include common;
+}
+
+.railscasts {
+  @import "~highlight.js/styles/railscasts";
+  @include common;
+}
+
+.rainbow {
+  @import "~highlight.js/styles/rainbow";
+  @include common;
+}
+
+.solarized-dark {
+  @import "~highlight.js/styles/solarized-dark";
+  @include common;
+}
+
+.solarized-light {
+  @import "~highlight.js/styles/solarized-light";
+  @include common;
+}
+
+.sunburst {
+  @import "~highlight.js/styles/sunburst";
+  @include common;
+}
+
+.tomorrow {
+  @import "~highlight.js/styles/tomorrow";
+  @include common;
+}
+
+.tomorrow-night-blue {
+  @import "~highlight.js/styles/tomorrow-night-blue";
+  @include common;
+}
+
+.tomorrow-night-bright {
+  @import "~highlight.js/styles/tomorrow-night-bright";
+  @include common;
+}
+
+.tomorrow-night {
+  @import "~highlight.js/styles/tomorrow-night";
+  @include common;
+}
+
+.tomorrow-night-eighties {
+  @import "~highlight.js/styles/tomorrow-night-eighties";
+  @include common;
+}
+
+.vs {
+  @import "~highlight.js/styles/vs";
+  @include common;
+}
+
+.xcode {
+  @import "~highlight.js/styles/xcode";
+  @include common;
+}
+
+.xt256 {
+  @import "~highlight.js/styles/xt256";
+  @include common;
+}
+
+.zenburn {
+  @import "~highlight.js/styles/zenburn";
+  @include common;
+}
