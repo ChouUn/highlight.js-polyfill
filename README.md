@@ -1,6 +1,4 @@
-# highlight.js polyfill
-
-[![Build Status](https://travis-ci.org/ChouUn/highlight.js-polyfill.svg?branch=master)](https://travis-ci.org/ChouUn/highlight.js-polyfill)
+# highlight.js polyfill &middot; [![Build Status](https://travis-ci.org/ChouUn/highlight.js-polyfill.svg?branch=master)](https://travis-ci.org/ChouUn/highlight.js-polyfill) [![npm version](https://img.shields.io/npm/v/highlight.js-polyfill.svg?style=flat)](https://www.npmjs.com/package/highlight.js-polyfill)
 
 [highlight.js - Syntax highlighting for the Web](https://highlightjs.org/).
 
