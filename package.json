@@ -1,7 +1,7 @@
 {
   "name": "highlight.js-polyfill",
-  "version": "0.1.0b",
-  "description": "A polyfill for highlight.js to isolate various syntax theme because of global style pollution.",
+  "version": "0.1.0-c",
+  "description": "A polyfill for highlight.js to isolate various syntax themes because of global style pollution.",
   "main": "./lib/index.js",
   "scripts": {
     "build": "webpack --config ./src/webpack.config.js --progress --colors --profile"

@@ -2,7 +2,7 @@
 
 [highlight.js - Syntax highlighting for the Web](https://highlightjs.org/).
 
-A polyfill for highlight.js to isolate various syntax theme because of global style pollution.   
+A polyfill for highlight.js to isolate various syntax themes because of global style pollution.   
 This package doesn't require modifying the source file.
 
 ## How to use
@@ -16,7 +16,7 @@ OR
 ```jsx
 import 'highlight.js-polyfill/styles/index.scss';
 ```
-The letter need **node-sass** and **sass-loader** in Webpack.
+The latter need **node-sass** and **sass-loader** in Webpack.
 
 ### Example
 
