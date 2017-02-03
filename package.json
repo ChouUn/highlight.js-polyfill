@@ -1,6 +1,6 @@
 {
   "name": "highlight.js-polyfill",
-  "version": "0.1.0-c",
+  "version": "0.1.1",
   "description": "A polyfill for highlight.js to isolate various syntax themes because of global style pollution.",
   "main": "./lib/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "name": "ChouUn",
     "email": "ChouUnSoft@gmail.com"
   },
-  "license": "GPL-3.0",
+  "license": "MIT",
   "dependencies": {
     "highlight.js": "^9.9.0"
   },
