@@ -1,6 +1,6 @@
 {
   "name": "highlight.js-polyfill",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "A polyfill for highlight.js to isolate various syntax themes because of global style pollution.",
   "main": "./lib/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "build:scss": "babel-node src/generator.js --presets=es2015",
     "build:css": "webpack --config ./src/webpack.config.js --progress --colors --profile",
     "build:lib": "babel src/index.js --out-file lib/index.js --presets=es2015",
-    "publish": "npm run build && npm publish"
+    "release": "npm run build && npm publish"
   },
   "keywords": [
     "polyfill",

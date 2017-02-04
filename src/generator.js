@@ -22,4 +22,19 @@ function getStyles() {
   return result;
 }
 
+function exMakeDir(dirname) {
+  try {
+    fs.mkdirSync(dirname);
+  } catch(err) {
+    if (err.code === 'EEXIST') {
+      console.log(`folder '${dirname}' already exists.`);
+    }
+    else {
+      throw err;
+    }
+  }
+}
+
+exMakeDir('styles');
+exMakeDir('lib');
 fs.writeFileSync('./styles/index.scss', getStyles(), 'utf8');

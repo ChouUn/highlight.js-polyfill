@@ -56,5 +56,5 @@ $ npm run build
 ## Publish
 
 ```shell
-$ npm run publish
+$ npm run release
 ```
