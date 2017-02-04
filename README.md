@@ -52,3 +52,9 @@ It will get an Array of syntax themes.
 ```shell
 $ npm run build 
 ```
+
+## Publish
+
+```shell
+$ npm run publish
+```
