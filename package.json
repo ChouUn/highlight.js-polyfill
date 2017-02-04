@@ -1,10 +1,14 @@
 {
   "name": "highlight.js-polyfill",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A polyfill for highlight.js to isolate various syntax themes because of global style pollution.",
   "main": "./lib/index.js",
   "scripts": {
-    "build": "webpack --config ./src/webpack.config.js --progress --colors --profile"
+    "build": "npm run build:style && npm run build:lib",
+    "build:style": "npm run build:scss && npm run build:css",
+    "build:scss": "babel-node src/generator.js --presets=es2015",
+    "build:css": "webpack --config ./src/webpack.config.js --progress --colors --profile",
+    "build:lib": "babel src/index.js --out-file lib/index.js --presets=es2015"
   },
   "keywords": [
     "polyfill",
@@ -16,7 +20,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "highlight.js": "^9.9.0"
   },
   "bugs": {
     "url": "https://github.com/ChouUn/highlight.js-polyfill/issues"
@@ -27,13 +30,16 @@
     "url": "git@github.com:ChouUn/highlight.js-polyfill.git"
   },
   "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
     "css-loader": "^0.26.1",
+    "highlight.js": "^9.9.0",
     "extract-text-webpack-plugin": "^2.0.0-rc.2",
     "node-sass": "^4.5.0",
     "sass-loader": "^4.1.1",
     "webpack": "^2.2.1"
   },
-  "engines" : {
-    "node" : ">=5.0"
+  "engines": {
+    "node": ">=5.0"
   }
 }

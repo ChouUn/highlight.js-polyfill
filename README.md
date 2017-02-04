@@ -21,6 +21,8 @@ The latter need **node-sass** and **sass-loader** in Webpack.
 ### Example
 
 ```jsx
+const theme = 'atom-one-dark';
+
 return `
     <pre class=${theme}>
         <code class="hljs">
@@ -41,7 +43,7 @@ It will render to :
 ### About module
 
 ```jsx
-import themes from 'highlight.js-polyfill';
+import hljsThemes from 'highlight.js-polyfill';
 ```
 It will get an Array of syntax themes.
 

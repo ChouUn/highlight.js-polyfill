@@ -41,11 +41,9 @@ bower_components
 # Optional REPL history
 .node_repl_history
 
-# Compiled files
-build
-
 # WebStorm
 .idea
 
-.git
+# Compiled files
+build
 src
